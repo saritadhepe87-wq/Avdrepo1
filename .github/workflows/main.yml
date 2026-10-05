@@ -19,4 +19,4 @@ jobs:
 
       # step 2
       - name: Print welcome message again
-        run: echo 'Hello....
+        run: echo 'Hello....'
