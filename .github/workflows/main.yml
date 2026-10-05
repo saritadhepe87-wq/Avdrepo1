@@ -3,9 +3,7 @@ name: First workflow
 
 # set trigger
 on:
-  push:
-    branches:
-      - main
+    workflow_dispatch:
 
 jobs:
   print-message:
@@ -18,4 +16,4 @@ jobs:
 
       # step 2
       - name: Print welcome message again
-        run: echo 'welcome to github action'
+        run: echo 'Hello....
